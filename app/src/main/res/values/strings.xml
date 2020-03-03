@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="choice_tip">请选择属性点分配方式</string>
+    <string name="dice_point">骰点</string>
+    <string name="buy_point">购点</string>
+    <string name="confirm">确定</string>
+    <string name="result">这里显示骰点的结果</string>
+    <string name="dice_point_info">掷四个六面骰（4d6）决定每项属性值。掷骰后，将最低数值的骰子拿掉，再将剩下三个数值加总。此数值的范围介于3（表示非常糟）到18（表示极优秀）之间。普通人的平均值大约为10或11左右，但你的人物并非泛泛之辈。因此玩者人物最常见的数值是12或13。</string>
+    <string name="buy_point_info">你获得总计27点可花费的点数用于兑换各属性值，每个属性值的花费在“属性值花费点数”表中显示。例如，一个属性值14需要花费7点进行兑换。以该方式能兑换到的属性值在加入种族增益前其最值为15。而你也不能拥有低于8的属性值。
+这种决定属性值的方式可以使你拥有一组三个相等高数和三个相等低的数值组合（15、15、15、8、8、8），或一个有着平均值更高但各数值几乎相等的数值组合（13、13、13、12、12、12），或是任何这两个极端间的数值的集合。</string>
+    <string name="dice_tip">只保留最后一个结果</string>
+    <string name="strength">力量</string>
+    <string name="dexterity">敏捷</string>
+    <string name="constitution">体质</string>
+    <string name="intelligence">智力</string>
+    <string name="wisdom">感知</string>
+    <string name="charisma">魅力</string>
+    <string name="value">8</string>
+    <string name="point_last">可购点数</string>
+    <string name="level_tip">请输入等级</string>
+    <string name="init_point">27</string>
+    <string name="point_last_tip">点数还未用尽</string>
+    <string name="point_overflow_tip">点数不足</string>
+    <string name="have_not_dice_tip">还没有骰点</string>
+    <string name="allocate_have_not_finish">有属性未分配</string>
+    <string name="allocate_tip">长按右下按钮重置操作</string>
+</resources>
