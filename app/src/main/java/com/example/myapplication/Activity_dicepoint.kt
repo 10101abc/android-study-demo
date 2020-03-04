@@ -35,11 +35,6 @@ class Activity_dicepoint : AppCompatActivity() {
         }
         dice_confirm.setOnClickListener {
             if (dice == null) timerToast( Toast.makeText(this, R.string.have_not_dice_tip, Toast.LENGTH_SHORT),500L)
-            else {
-                val intent = Intent(this, ActivityAllocate::class.java)
-                intent.putExtra("dice", dice)
-                startActivity(intent)
-            }
         }
     }
 
